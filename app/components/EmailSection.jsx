@@ -52,7 +52,7 @@ function ContactForm() {
               name="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="jacob@google.com"
+              placeholder="your email..."
             />
             <ValidationError
               prefix="Email"
@@ -71,7 +71,7 @@ function ContactForm() {
               id="message"
               name="message"
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Let's talk about..."
+              placeholder="Let's talk..."
             />
             <ValidationError
               prefix="Message"
