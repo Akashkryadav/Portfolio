@@ -6,8 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section className=" lg:py-16">
-      <div className="grid grid-cols-1 sm:grid-cols-12">
+    <section className=" lg:py-16 ">
+      <div className="grid grid-cols-1 sm:grid-cols-12 " >
         <div className="col-span-7 place-self-center">
           <h1 className=" mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 ">
@@ -32,8 +32,8 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#5d89a9] text-base sm:text-lg mb-6 lg:text-xl ">
-            I'm a software engineer with a passion for building beautiful and
-            intuitive web applications. I love to learn new technologies and I'm
+          👋 Hello, I'm Akash kumar yadav, a creative frontend developer with a passion for crafting beautiful and functional web experiences. 🚀
+            I love to learn new technologies and I'm
             always looking for new opportunities.
           </p>
           <div>
@@ -56,7 +56,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-5">
+        <div className="col-span-5 ">
           <img
             src="/Untitled design (1).gif"
             alt="avatar"
