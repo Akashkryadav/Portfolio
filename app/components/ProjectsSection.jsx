@@ -7,14 +7,19 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Nike Landing page",
+    title: "Google-meet-clone",
     description: <p>
-        It is the Landing page  
+Implemented real-time video and audio communication using WebRTC technology.
+ Introduced features like allowing participants to easily turn their audio or camera
+on/off during meetings.
+ Introduced user-friendly controls for toggling audio and camera functionalities,
+providing users with greater control over their meeting experience.
     </p>,
-    image: "/images/nike.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Akashkryadav/Nike",
-    previewUrl: "https://nike-wine-gamma.vercel.app/",
+    image: "/images/google-meet-clone.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/Akashkryadav/google-meet-clone",
+    previewUrl: "https://google-meet-clone-eight.vercel.app/",
+    
   },
   {
     id: 2,
@@ -32,31 +37,43 @@ const projectsData = [
     previewUrl: "https://password-generator-two-orpin.vercel.app/",
   },
   
-//   {
-//     id: 3,
-//     title: "Food Ordering Application",
-//     description: <p>
-// Developed a responsive e-commerce website using HTML, CSS, JavaScript, React.js, 
-// MongoDB, and Node.js
-// Implemented essential features like User Registration, Product Catalog, Shopping Cart, 
-// and Payment-Gateway to provide a seamless user experience.
-// Demonstrated proficiency in using modern web technologies to build user-friendly 
-// interfaces.
-//     </p>,
-//     image: "/images/projects/4.png",
-//     tag: ["All", "Mobile"],
-//     gitUrl: "/",
-//     previewUrl: "/",
-//   },
+  
   {
-    id: 4,
+    id: 3,
     title: "Sorting Visualizers",
     description: <p>The Sorting Algorithms Visualizer is an educational tool that provides a dynamic visualization of sorting algorithms such as Merge Sort, Quick Sort, Insertion Sort, and Bubble Sort. Witness the step-by-step sorting process, facilitating a better understanding of each algorithm's efficiency and behavior.</p>,
     image: "/images/Sorting-20be1586.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/Akashkryadav/SORTING-VISUALIZER",
     previewUrl: "/",
-  }
+  },
+  {
+    id: 4,
+    title: "Netflix-clone",
+    description: <p>
+ Created a clone of the Netflix home page using HTML, CSS, and 
+JavaScript.
+ Utilized Bootstrap framework with flexbox and grid system classes to 
+ensure compatibility with various screen resolutions.
+ Demonstrated strong front-end skills to replicate the original design of 
+Netflix's home page.
+    </p>,
+    image: "/images/netflix.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Akashkryadav/Netflix-Clone",
+    previewUrl: "https://akashkryadav.github.io/Netflix-Clone/",
+  },
+  {
+    id: 5,
+    title: "Nike Landing page",
+    description: <p>
+       Experience the epitome of style and innovation with our Nike Landing Page – a sleek, responsive design featuring interactive elements, product showcases, and effortless navigation for a seamless and secure shopping experience
+    </p>,
+    image: "/images/nike.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/Akashkryadav/Nike",
+    previewUrl: "https://nike-wine-gamma.vercel.app/",
+  },
   
 ];
 

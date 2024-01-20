@@ -3,12 +3,13 @@ import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
 
+
 const TAB_DATA = [
   {
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2">
+      <ul className="list-disc pl-2 columns-2 ">
         <li>Node.js</li>
         <li>Express</li>
         <li>MongoDB</li>
@@ -20,6 +21,7 @@ const TAB_DATA = [
         <li>C++</li>
       </ul>
     ),
+  
   },
   {
     title: "Education",
@@ -56,15 +58,15 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/about-image.png" width={500} height={500} />
+        <Image className="about-img" src="/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <b className="text-violet-600">Projects</b> section.
+          I'm a Full Stack web Developer building the Full stack  of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <b className="text-violet-600">Projects</b> section.
           I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <b className="text-violet-600">contact</b> me.
           </p>
-          <div className="flex flex-row justify-start mt-8">
-            <TabButton
+          <div className="flex flex-row justify-start mt-8   ">
+            <TabButton 
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
